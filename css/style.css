@@ -91,12 +91,6 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
-    /* border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px; */
-
     color: #fff;;
 }
 .button-title:hover,
@@ -214,10 +208,11 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; }
+    color: #4d5ae5; 
+}
 
 .footer-logo-item {
     font-family: "Raleway", sans-serif;
