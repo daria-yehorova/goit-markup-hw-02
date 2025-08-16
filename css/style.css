@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul,
@@ -50,12 +52,12 @@ button {
     color: #404bbf;
 }
 
-.header-address {}
+.header-address {
+    font-style: normal;}
 
 .header-address-item {}
 
-.header-address-link {
-    font-style: normal;
+.header-address-link {    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -78,7 +80,7 @@ button {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -86,6 +88,10 @@ button {
 
 .button-title {
     background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
     /* border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
@@ -126,18 +132,24 @@ button {
 
 /* #region team */
 
+.team-section {
+    background-color: #F4F4FD;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-name {
     font-weight: 500;
@@ -164,10 +176,11 @@ button {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
